@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="2017.05.16" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" backgroundcolor="#00ffff" nextobjectid="4">
+ <properties>
+  <property name="player" type="file" value="assets/spriteSheet.png"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198" columns="18">
+  <image source="assets/blocks1.png" width="640" height="400"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="60" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztkkkOgkAQRdl4B8cDyc7EtbPnEKe9R3EteDcfiSTEINXdUKCkX/I2VKeo+t1B8BuscaPQd4FLXAnntrjDvcIMplSZQcqvqO6SuTSjad51/c8VrffWFq451X1fGV3LN4+UddV6U2jeUdZb4215PJ7/pI8DHOIIxzixqLfF7Yv3ElOm2PswzPWV6jNBGw4Y4RFPeMYLXg32bGrfuYWPElOSgu8xPju+b/zWZd8XvLZZuw==
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1">
+  <object id="3" name="Personaje" type="Player" x="96" y="289" width="32" height="32">
+   <properties>
+    <property name="numFrames" type="int" value="4"/>
+    <property name="textureHeight" type="int" value="70"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" type="int" value="124"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
